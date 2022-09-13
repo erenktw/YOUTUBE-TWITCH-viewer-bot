@@ -1,0 +1,34 @@
+import webbrowser , time
+#Tr And #En
+#webbroswser ve time tagı zamanlayıcı ve tarayıcı için kullanılır os ise windows işlemleri için. 
+# #webbroswser and time tag are used for timer and browser, os is for windows processors.
+import os
+#İlk olarak link giriyoruz
+
+# First we enter the link
+url = input ("Enter url: ")
+#ikinci olarak kaç dakkika'da veya saniyede bir sayfa açıcak onu seçiyoruz.
+
+#secondly, we choose it in how many minutes and seconds it will open a page.
+duration = input ("Enter duration: ")
+#Bot açılma kapanma süresini dikkatli seçiniz örnek 65 sn veya 25 sn aralığında tavsiye edilen Microsoft Edge ile 
+#otomatik vpn başlatma ayarlayınız varsayılan tarayıcı haline getiriniz makine kapanmaması için süreyi dikkatli
+#ayarlayınız.
+
+#Choose the bot opening and closing time carefully, for example with Microsoft Edge, which is recommended in the range of 65 seconds or 25 seconds.
+#set automatic vpn start make it the default browser time it carefully so that the machine does not turn off
+
+
+while True: #sürekli çalışması için while döngüsü açık kalıcak #while loop will remain open for it to run continuously
+    webbrowser.open_new(url)
+    time.sleep(int(duration)) 
+    #kaç dakikada bir tarayıcıyı kapatıcak bunu ayarlayınız yoksam sisteminiz çökebilir.
+
+    # Set this to close the browser every few minutes, or your system may crash.
+    #Bu sayfa bitti diğer sayfada botun açtığı sayfaları otomatik kapatması var
+    #This page is over, the other page has automatic closing of the pages opened by the bot
+    #this page is over go to the next page Name Codes
+
+    
+
+ 
