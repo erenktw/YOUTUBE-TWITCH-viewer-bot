@@ -50,6 +50,8 @@ urllib3          1.26.11
 wsproto          1.1.0
 
 First step 
+İlk olarak proğramı çalıştırın.
+first run the program
 
 
 
