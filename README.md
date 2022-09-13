@@ -1,6 +1,9 @@
 # Bot-YT-TW
 Youtube And Twitch Bot New 2022
 
+!Youtube Video!
+
+
 Follow Me Social Media  ♥
 Sosyal Medyadan Takip et!
 Twitter.com
@@ -27,7 +30,7 @@ It opens a certain number of browser pages with a loop and closes the pages afte
 öncelikle botu başlatmadan python'u yükleyiniz şuanki sürüm windows içindir
 first, install python without starting the bot, the current version is for windows
 
-1. Pip install 
+1. Pip install - Pip list
 async-generator  1.10
 attrs            22.1.0
 certifi          2022.6.15
@@ -53,7 +56,11 @@ First step
 İlk olarak proğramı çalıştırın.
 first run the program
 
-
+1. Open "Cmd" run as administrator - "cmd" yi açın yönetici olarak.
+2. choose file location - Dosya konumunu Seçin.
+3.all you need to do is: " python bot.py "  -  yapmanız gereken sadece: " python bot.py " çalıştırmak.
+                       !use this to turn it off automatically!
+4.second run it in other bot " python botCloseWeb.py " - İkinci olarak " botCloseWeb.py " çalıştırın.
 
 
 
